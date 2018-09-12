@@ -12,7 +12,7 @@
 
 	var recalCulate = function() {
 		var width = docEle.clientWidth;
-		docEle.style.fontSize = 10 * (width /750) + 'px';
+		docEle.style.fontSize = 100 * (width /720) + 'px';
 	};
 
 	recalCulate();
